@@ -2,7 +2,7 @@
 
 ## 相应介绍文章
 
-https://indienova.com/indie-game-development/wechat-mini-game-notes-threejs-load-model-and-interaction
+https://indienova.com/indie-game-development/wechat-mini-game-notes-threejs-load-model-and-interaction/
 
 ## 源码目录介绍
 ```
