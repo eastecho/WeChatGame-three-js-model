@@ -21,13 +21,14 @@ export default class Main {
   constructor() {
     // 初始化
     scene    = new THREE.Scene()
-    renderer = new THREE.WebGLRenderer({ context: ctx })
+    renderer = new THREE.WebGLRenderer({ context: ctx, canvas:canvas })
 
     const winWidth     = window.innerWidth
     const winHeight    = window.innerHeight
     const cameraAspect = winWidth / winHeight
 
     renderer.setSize(winWidth, winHeight)
+    renderer.setPixelRatio(window.devicePixelRatio)
 
     console.log("屏幕尺寸: " + winWidth + " x " + winHeight)
 
